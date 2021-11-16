@@ -1,0 +1,50 @@
+body {
+  font-family: "roboto", "sans-serif";
+}
+
+.main-header {
+  background: #f3f3f3;
+  padding: 20px;
+}
+
+.name {
+  text-align: center;
+  margin-top: 0;
+  text-transform: uppercase;
+  color: #525252;
+}
+
+.navbar {
+  margin-bottom: 40px;
+}
+
+.navbar a:link,
+a:visited {
+  color: #525252;
+  font-weight: bold;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 10px;
+  background: #fff;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.navbar a:hover {
+  color: #ffba3a;
+}
+
+.profile {
+  text-align: center;
+}
+
+.profile-image {
+  width: 70%;
+}
+
+.about-me {
+  line-height: 1.5;
+  font-size: 1.1rem;
+  color: #525252;
+}
