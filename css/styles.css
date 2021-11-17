@@ -1,3 +1,7 @@
+html {
+  font-size: 1.1em;
+}
+
 body {
   font-family: "roboto", "sans-serif";
 }
@@ -5,6 +9,7 @@ body {
 .main-header {
   background: #f3f3f3;
   padding: 20px;
+  margin-bottom: 40px;
 }
 
 .name {
@@ -45,6 +50,56 @@ a:visited {
 
 .about-me {
   line-height: 1.5;
-  font-size: 1.1rem;
+  color: #414141;
+}
+
+.section-title {
+  color: #383838;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.project {
+  text-align: center;
+  padding: 0 10px;
+  margin-bottom: 40px;
+}
+
+.project-image {
+  width: 100%;
+}
+
+.project-title {
   color: #525252;
+}
+
+.project-description {
+  color: #8a8a8a;
+}
+
+.footer {
+  background: #f3f3f3;
+  padding: 40px 20px;
+  text-align: center;
+  color: #525252;
+}
+
+.contact {
+  color: #525252;
+}
+
+.signature {
+  display: flex;
+  justify-content: space-between;
+  color: #383838;
+}
+
+.back-to-top:link,
+.back-to-top:visited {
+  text-decoration: none;
+}
+
+.back-to-top:hover {
+  color: #ffba3a;
+  text-decoration: underline;
 }
